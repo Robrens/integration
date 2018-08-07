@@ -1,0 +1,26 @@
+.header {
+    background-color: chocolate;
+    #one {
+        background-color: chartreuse;
+        ul {
+            li {
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+    #two {
+        background-color: aquamarine;
+        ul {
+            li {
+                background-color: crimson;
+            }
+        }
+    }
+    .contenu {
+        background-color: cornflowerblue;
+    }
+    .aside {
+        background-color: darkgoldenrod;
+    }
+}
