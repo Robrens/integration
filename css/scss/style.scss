@@ -1,9 +1,9 @@
-/* @import "_debug.scss"; */
+
 .body {
     display: grid;
     grid-template-columns: repeat(11 1fr);
-    grid-auto-rows: minmax(20%, auto);
-    .icone {
+
+    .icon {
         grid-column: 1 / 12;
         grid-row: 1 / 2;
         background-color: red;
