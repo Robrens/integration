@@ -1,5 +1,5 @@
 node_modules
-.access.log
-.error.log
+access.log
+error.log
 package-lock.json
 .sass-cache
