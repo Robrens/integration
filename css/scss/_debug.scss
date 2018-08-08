@@ -24,76 +24,109 @@
         background-color: darkgoldenrod;
     }
 }
-.main{
-    img{
+
+.main {
+    img {
         max-width: 100%;
     }
-    .presentation{
-        .article1{
+    .presentation {
+        .article1 {
             border: 1px solid red;
             background-color: rgb(11, 230, 79);
-
         }
-        .article2{
+        .article2 {
             background-color: rgb(49, 201, 124);
         }
-        .article3{
+        .article3 {
             background-color: rgb(157, 160, 173);
         }
-        .article4{
+        .article4 {
             background-color: rgb(165, 5, 210);
         }
-        .article5{
+        .article5 {
             background-color: rgb(56, 126, 255);
         }
-        .article6{
+        .article6 {
             background-color: rgb(150, 84, 63);
         }
-
     }
-
-    .media{
-        > *{
+    .media {
+        >* {
             height: 100px;
             width: 100%;
             border: 1px solid red;
         }
-        .img1{
+        .img1 {
             background-color: purple;
         }
-        .img2{
+        .img2 {
             background-color: yellow;
         }
-        .img3{
+        .img3 {
             background-color: green;
         }
-        .img4{
+        .img4 {
             background-color: blue;
         }
-        .img5{
+        .img5 {
             background-color: red;
         }
     }
-
-    .media2{
-        > *{
+    .media2 {
+        >* {
             height: 300px;
             width: 100%;
         }
-        .article1{
+        .article1 {
             background-color: rgb(150, 58, 29);
         }
-        .article2{
+        .article2 {
             background-color: pink;
-            div{
-                height: 50%;
+            div {
+                height: 100%;
                 width: 100%;
                 border: 1px solid blue;
             }
         }
     }
+    .media3 {
+        >* {
+            height: 200px;
+            width: 100%;
+        }
+        .section {
+            background-color: darksalmon;
+            div {
+                height: 100%;
+                width: 100%;
+                border: 1px solid black;
+            }
+        }
+        .contenu {
+            background-color: darkorange;
+        }
+    }
+}
 
-
-
-
+.footer {
+    >* {
+        height: 1000px;
+        width: 100%;
+    }
+    .title {
+        background-color: darkolivegreen;
+        div {
+            height: 100%;
+            width: 100%;
+            border: 1px solid red;
+        }
+    }
+    .foot{
+        background-color: magenta;
+        div{
+            height: 100%;
+            width: 100%;
+            border: 1px solid blue;
+        }
+    }
 }
